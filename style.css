@@ -30,15 +30,20 @@ ul {
   color: #e5e7eb;
 }
 
+.top {
+  background-color: #1F2937;
+}
+
 .header, .footer {
   height: 64px;
-  background-color: #1F2937;
   color: #F9FAF8;
 }
 
-.header {
+.header, .hero {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -47,7 +52,48 @@ ul {
   font-weight: bold;
 }
 
+.hero {
+  padding: 72px 0;
+}
+
+.description {
+  width: 400px;
+}
+
+.main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.sign-up {
+  background-color: #3382f6;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 32px;
+  border-radius: 6px;
+  border: none;
+}
+
+.img {
+  width: 500px;
+  height: 250px;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer {
+  background-color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: center;
