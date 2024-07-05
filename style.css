@@ -11,4 +11,48 @@ html {
   margin: 0;
 }
 
+body {
+  font-family: Roboto, 'Segoe UI', 'Open Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+ a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header, .footer {
+  height: 64px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+}
