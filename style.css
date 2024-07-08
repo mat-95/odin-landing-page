@@ -137,3 +137,25 @@ ul {
   color: #1F2937;
   text-align: center;
 }
+
+.section.quote {
+  padding: 120px;
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  width: 80%;
+  margin: 0 auto;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+blockquote footer {
+  font-weight: bolder;
+  text-align: right;
+}
