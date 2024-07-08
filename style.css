@@ -60,13 +60,13 @@ ul {
   width: 400px;
 }
 
-.main {
+.description .main {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
 }
 
-.secondary {
+.description .secondary {
   font-size: 18px;
   color: #e5e7eb;
   margin-bottom: 16px;
@@ -158,4 +158,35 @@ blockquote p {
 blockquote footer {
   font-weight: bolder;
   text-align: right;
+}
+
+.section.call-to-action {
+  padding: 120px;
+}
+
+.cta-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 96px;
+  background-color: #3382f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.cta-container .main {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.cta-container .secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.cta-container .sign-up {
+  border: 2px solid #F9FAF8;
 }
